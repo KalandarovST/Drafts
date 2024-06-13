@@ -1,2 +1,29 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+
+Console.Write("Bo`limni tanlang: ");
+string inputSon = Console.ReadLine();
+
+switch (inputSon)
+{
+   
+    case "1" :
+    { 
+    int x = 3;
+    int y = 6;
+    int qoshish = x + y;
+         Console.WriteLine("Arifmetigi= " + qoshish);
+    break;
+    }
+    case "2":
+    {
+        int z =6;
+        int f = 2;
+        int kopaytirish = z * f;
+            Console.WriteLine("Geometrigi= " + kopaytirish);
+    break;
+     }
+    default:
+    Console.WriteLine("Siz notog`ri tanladingiz");
+    break;
+}
