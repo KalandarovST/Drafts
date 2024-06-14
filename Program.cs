@@ -9,11 +9,11 @@ do
         int multiplayer = 1;
         while(multiplayer <= 9)
         {
-            Console.WriteLine($"{number} x {multiplayer} = {multiplayer * number}");
+            Console.Write($"{number} x {multiplayer} = {multiplayer * number}; ");
             multiplayer++;
         }
 
-       Console.WriteLine($"{number} ning jadvali");
+       Console.WriteLine($" {number} ning jadvali");
         number++;
 
     }
@@ -21,4 +21,5 @@ do
     userInput = Console.ReadLine();
 }
 while(userInput == "y");
+
 
